@@ -5,6 +5,11 @@
     border-radius: 5px;
     box-shadow: rgb(8, 8, 8) 1px -1px 10px;
     color: $color__font-main;
+
+    &__recherche {
+        background-color: rgba($color__background-main, 0.1);
+        padding: 1rem;
+    }
 }
 
 .formation {

@@ -467,6 +467,11 @@ COMPOSANTES
   color: #dbdff3;
 }
 
+.site__main__recherche {
+  background-color: rgba(128, 128, 128, 0.1);
+  padding: 1rem;
+}
+
 .formation {
   display: flex;
   flex-direction: column;
@@ -632,8 +637,12 @@ COMPOSANTES
 }
 
 .site__footer__colonne section {
-  flex: 0 0 30%;
-  border: 1px solid #aaa;
+  flex: 0 0 49%;
+  border: 1px solid #bb2a2a;
+}
+
+.site__footer__colonne .footer__article {
+  padding: 1rem;
 }
 
 .site__footer__ligne {
