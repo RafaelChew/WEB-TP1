@@ -395,7 +395,7 @@ a:hover, a:active {
 }
 
 .header__titre a:visited {
-  color: #eca793;
+  color: #dfb972;
 }
 
 .header__titre a:hover, .header__titre a:focus, .header__titre a:active {
@@ -557,6 +557,10 @@ COMPOSANTES
   display: flex;
 }
 
+#sidebar-entete_1 {
+  width: 100%;
+}
+
 .recherche__bouton {
   background-color: #dfb972;
 }
@@ -655,6 +659,10 @@ COMPOSANTES
   text-align: center;
 }
 
+.site__footer__ligne .footer__description {
+  margin-top: 3rem;
+}
+
 .footer__menu__nav__ul {
   display: flex;
   list-style-type: none;
@@ -729,15 +737,44 @@ ANIMATION
   background-color: #479470;
   color: #fff;
   font-size: 3rem;
-  animation: anim-entete 1s forwards;
 }
 
-@keyframes anim-entete {
+.animation .animation__bloc:first-child {
+  animation: anim-entete_t 1s forwards;
+}
+
+.animation .animation__bloc:nth-child(2) {
+  animation: anim-entete_i 1s forwards;
+}
+
+.animation .animation__bloc:last-child {
+  animation: anim-entete_m 1s forwards;
+}
+
+@keyframes anim-entete_t {
+  0% {
+    transform: translateX(-100vh);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes anim-entete_i {
   0% {
     transform: translateY(-100vh);
   }
   100% {
     transform: translateY(0);
+  }
+}
+
+@keyframes anim-entete_m {
+  0% {
+    transform: translateX(100vh);
+  }
+  100% {
+    transform: translateX(0);
   }
 }
 
