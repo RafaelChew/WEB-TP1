@@ -571,7 +571,7 @@ COMPOSANTES
 }
 
 .formation__cours {
-  background-color: #d9af26;
+  background-color: gray;
   box-shadow: #080808 1px -1px 10px;
   border-radius: 5px;
   margin: 10px;
@@ -593,16 +593,29 @@ COMPOSANTES
   }
 }
 
+.principal {
+  color: #dbdff3;
+}
+
+.formation__cours {
+  background-color: rgba(128, 128, 128, 0.1);
+}
+
 .cours__titre {
   font-size: 1.5rem;
-  color: #dbdff3;
   margin: 5px 0px;
 }
 
 .cours__sigle {
   font-size: 1.2rem;
-  color: #8a5353;
+  color: #bd9242;
   margin: 0;
+}
+
+.cours__nbre-heure {
+  color: #bd9242;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .cours__description {
@@ -695,6 +708,10 @@ COMPOSANTES
   display: block;
   text-decoration: none;
   padding: 4px;
+}
+
+.menu-item a svg {
+  color: #dfb972;
 }
 
 @media screen and (min-width: 800px) {

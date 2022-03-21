@@ -52,7 +52,7 @@
             a:hover{ // .site__footer__menu__ul .menu-item a
                 animation: anim-bouton-accueil 1s forwards;
                 box-shadow: rgb(255, 170, 60) 2px -1px 10px;
-                transition: 0.5s;
+                transition : 0.5s;
               }
         }
     }
@@ -110,18 +110,29 @@
 
 
 
+.principal {
+    color: $color__font-main;
+}
 
+.formation__cours {
+    background-color: rgba($color__background-main, 0.1);
+}
 
 .cours__titre {
     font-size: 1.5rem;
-    color: $color__font-main;
     margin: 5px 0px;
 }
 
 .cours__sigle {
     font-size: 1.2rem;
-    color: rgb(138, 83, 83);
+    color: hsl(39, 48%, 50%);
     margin: 0;
+}
+
+.cours__nbre-heure {
+    color: hsl(39, 48%, 50%);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 .cours__description {

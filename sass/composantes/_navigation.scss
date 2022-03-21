@@ -43,8 +43,8 @@
         text-decoration: none;
         padding : 4px;
        
-        &:hover {
-          
+        svg{
+           color: $color__link__header;
         }
     }
 }
