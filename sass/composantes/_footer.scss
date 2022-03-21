@@ -15,8 +15,11 @@
          }
         .footer__article {
           padding: 1rem;
+          border-radius: 5px;
          }
         .footer__lien { 
+          padding: 1rem;
+          border-radius: 5px;
         }
     }
 
@@ -43,18 +46,25 @@
 
 
 .footer__menu { 
+  width: 30%;
+  padding: 1rem;
+
   &__nav{ // .footer__menu__nav
+
 
     &__ul{ // .footer__menu__nav__ul
         display : flex;
         list-style-type: none;
-        justify-content: center;
+        justify-content: space-around;
+        margin: 0;
+        padding: 0;
         .menu-item { // .site__footer__menu__ul .menu-item
-            margin : 10px 5px;
+        
           a{ // .site__footer__menu__ul .menu-item a
             display : flex;
             align-items: center;
             padding : 3px;
+            border-radius: 5px;
               svg { // .site__footer__menu__ul .menu-item a svg
                 color: $color__link__footer;
               }

@@ -1,6 +1,9 @@
 .animation {
     display : flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 15%;
+    padding-right: 15%;
 
     &__bloc{
         display : flex;
@@ -9,9 +12,10 @@
         width : 100px;
         height : 100px;
         border-radius: 50%;
-        background-color: rgb(71, 148, 112);
+        background-color: hsl(39, 91%, 69%);
         color : #fff;
-        font-size: 3rem;
+        font-size: 5rem;
+        font-weight: 700;
     }
 
     .animation__bloc:first-child {
