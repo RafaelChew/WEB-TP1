@@ -499,7 +499,7 @@ COMPOSANTES
 .site__main-accueil {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   text-align: center;
   height: 50vh;
   padding-bottom: 1rem;
@@ -599,6 +599,15 @@ COMPOSANTES
 
 .formation__cours {
   background-color: rgba(128, 128, 128, 0.1);
+  margin: 1rem;
+  box-shadow: black;
+}
+
+.formation__cours:hover {
+  background-color: rgba(128, 128, 128, 0.15);
+  transform: scale(1.1);
+  box-shadow: #ebad5d;
+  transition: 0.3s;
 }
 
 .cours__titre {
@@ -740,7 +749,7 @@ COMPOSANTES
 
 .site__footer__colonne section {
   flex: 0 0 49%;
-  border: 1px solid #bb2a2a;
+  border: 3px solid #bb2a2a;
 }
 
 .site__footer__colonne .footer__article {
@@ -748,9 +757,17 @@ COMPOSANTES
   border-radius: 5px;
 }
 
+.site__footer__colonne .footer__article:hover {
+  border: 3px double #ff8d8d;
+}
+
 .site__footer__colonne .footer__lien {
   padding: 1rem;
   border-radius: 5px;
+}
+
+.site__footer__colonne .footer__lien:hover {
+  border: 3px double #ff8d8d;
 }
 
 .site__footer__ligne {

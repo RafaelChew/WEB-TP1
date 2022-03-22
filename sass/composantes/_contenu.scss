@@ -116,6 +116,15 @@
 
 .formation__cours {
     background-color: rgba($color__background-main, 0.1);
+    margin: 1rem;
+    box-shadow: rgb(0, 0, 0);
+}
+
+.formation__cours:hover {
+    background-color: rgba($color__background-main, 0.15);
+    transform: scale(1.1);
+    box-shadow: rgb(235, 173, 93);
+    transition: 0.3s;
 }
 
 .cours__titre {
