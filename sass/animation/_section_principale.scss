@@ -1,0 +1,12 @@
+.section__cog svg{
+    animation: anim-cog 3s infinite;
+}
+
+@keyframes anim-cog {
+    0% {
+        transform : rotate(0);  
+    }
+    100% {
+        transform : rotate(300);   
+    }
+}

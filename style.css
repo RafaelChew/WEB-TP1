@@ -812,8 +812,26 @@ COMPOSANTES
   color: #bf4040;
 }
 
+.site__main__single__cours {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .cours__contenu {
   display: flex;
+}
+
+.section__cog {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section__cog svg {
+  color: #dfb972;
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
 
 .recherche {

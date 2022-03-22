@@ -1,11 +1,24 @@
 .site__main__single__cours {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .cours {
-
     &__titre{}
     &__contenu{
         display: flex;
     }
+}
+
+.section__cog {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section__cog svg{
+    color: $color__link__header;
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
