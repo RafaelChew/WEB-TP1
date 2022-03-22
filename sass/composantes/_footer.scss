@@ -66,7 +66,7 @@
     &__ul{ // .footer__menu__nav__ul
         display : flex;
         list-style-type: none;
-        justify-content: space-around;
+        justify-content: center;
         margin: 0;
         padding: 0;
         .menu-item { // .site__footer__menu__ul .menu-item
@@ -76,6 +76,7 @@
             align-items: center;
             padding : 3px;
             border-radius: 5px;
+            margin: 0.3rem;
               svg { // .site__footer__menu__ul .menu-item a svg
                 color: $color__link__footer;
               }

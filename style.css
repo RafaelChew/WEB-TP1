@@ -3,7 +3,7 @@
 theme name: TP1 ChewCoteR
 Author: Rafaël Chew-Côté
 Author URI: https://github.com/RafaelChew
-Description: Ce thème est mon premier TP du cours de conception d'interface et développement Web
+Description: Ce thème est mon premier TP du cours
 License: GNU General Public License v2 or later
 License URI: LICENSE
 Text Domain: cidw-4w4
@@ -804,7 +804,7 @@ COMPOSANTES
 .footer__menu__nav__ul {
   display: flex;
   list-style-type: none;
-  justify-content: space-around;
+  justify-content: center;
   margin: 0;
   padding: 0;
 }
@@ -814,6 +814,7 @@ COMPOSANTES
   align-items: center;
   padding: 3px;
   border-radius: 5px;
+  margin: 0.3rem;
 }
 
 .footer__menu__nav__ul .menu-item a svg {
