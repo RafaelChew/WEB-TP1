@@ -825,13 +825,23 @@ COMPOSANTES
 .section__cog {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  padding: 1rem;
 }
 
 .section__cog svg {
   color: #dfb972;
-  margin-left: 3rem;
-  margin-right: 3rem;
+  animation: anim-cog 5s infinite;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.66, 1);
+}
+
+@keyframes anim-cog {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
 }
 
 .recherche {
