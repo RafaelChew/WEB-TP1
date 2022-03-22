@@ -9,13 +9,18 @@
                 <div class="animation__bloc">M</div>
             </section>  
 
-            <h2>Technique d'intégration multimédia</h2>   
+            <h2>Technique d'intégration multimédia</h2>  
+             
             <?php    
                 wp_nav_menu(array(
                                 "menu"=>"simple",
                                 "container"=>"nav",
                                 "container_class"=>"accueil__menu__nav",
-                                "menu_class"=>"accueil__menu__nav__ul",)); ?>   
+                                "menu_class"=>"accueil__menu__nav__ul",)); ?>
+                                
+            <div>
+                
+            </div>
     </section>   
 </main>
 <?php get_footer() ?>

@@ -57,3 +57,15 @@
         transform : translateX(0);  
     }
 }
+
+@keyframes anim-rebond_m {
+    0% {
+      transform: rotateZ(0), scale(0);  
+    }
+    30% {
+        transform: rotateZ(15), scale(1.2);  
+    }
+    100% {
+        transform: rotateZ(0), scale(0);  
+    }
+}
