@@ -2,4 +2,4 @@
 ### Auteur : Rafaël Chew-Côté
 ### TP1 
 
-> Site compilant tous les cours de la technique d'intégration multimédia.
+> Site compilant tous les cours de la technique d'intégration multimédia réaliser avec Wordpress.
