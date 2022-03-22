@@ -13,13 +13,13 @@
              
             <?php    
                 wp_nav_menu(array(
-                                "menu"=>"simple",
+                                "menu"=>"accueil",
                                 "container"=>"nav",
                                 "container_class"=>"accueil__menu__nav",
                                 "menu_class"=>"accueil__menu__nav__ul",)); ?>
                                 
             <div>
-                
+
             </div>
     </section>   
 </main>
