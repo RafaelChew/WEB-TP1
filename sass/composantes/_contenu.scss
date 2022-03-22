@@ -122,9 +122,16 @@
 
 .formation__cours:hover {
     background-color: rgba($color__background-main, 0.15);
-    transform: scale(1.1);
+    transform: scale(1.01);
     box-shadow: rgb(235, 173, 93);
     transition: 0.3s;
+    
+    @media screen and (min-width : $largeur__media--tablette){
+        transform: scale(1.1);
+    }
+    @media screen and (min-width : $largeur__media--desktop){
+        transform: scale(1.1);
+    }
 }
 
 .cours__titre {
